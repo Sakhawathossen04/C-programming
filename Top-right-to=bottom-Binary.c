@@ -1,0 +1,38 @@
+//    1
+//   10
+//  101
+#include <stdio.h>
+int main (){
+    int n,row,col;
+
+    printf ("Enter the number:");
+    scanf ("%d",&n);
+
+    for (row = 1; row <=n; row++)
+    {   
+        //lopp 1 for space creating //
+       for ( col = 1; col <=n-row; col++)
+       {
+         printf (" ",col);
+       }
+         //lopp 2 for printing number //
+       for ( col =1; col <= row; col++)
+       {
+        printf("%d",col%2);
+          
+       }
+     printf ("\n");
+
+
+
+
+
+    }
+    
+
+
+
+
+
+
+}
